@@ -5,10 +5,15 @@
 	stroke: #777;
 	shape-rendering: crispEdges;
 }
+
 .axis text {
 	font-family: 'Lato', sans-serif;
 }
 
 .row-centered{
 	text-align: center;
+}
+
+textarea.code{
+	min-height: 6em;
 }
