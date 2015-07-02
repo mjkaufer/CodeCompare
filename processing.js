@@ -74,9 +74,7 @@ function newChart(startIter, endIter, func1, func2, col0, col1){
 			.tickFormat(d3.format("d")),
 		yAxis = d3.svg.axis()
 			.scale(yScale)
-			.orient("left")
-			.tickFormat(d3.format("d"));
-
+			.orient("left");
 	vis.append("svg:g")
 		.attr("class","axis")
 		.attr("transform", "translate(0," + (HEIGHT - MARGINS.bottom) + ")")
